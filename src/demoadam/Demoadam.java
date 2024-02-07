@@ -4,6 +4,8 @@
  */
 package demoadam;
 
+import java.util.Scanner;
+
 /**
  *
  * @author adamd
@@ -14,7 +16,18 @@ public class Demoadam {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+       
+        System.out.println("Hello World");
+        int a = 1;
+        System.out.println("a");
+        
+        Scanner scn = new Scanner(System.in);
+        
+        System.out.println("Adam");
+        String name = scn.nextLine();
+        
+        System.out.println("My name is:" + name);
+        
     }
     
 }
