@@ -14,7 +14,7 @@ public class Demoadam {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+       project file>right clk>versioning>initialize Repository
     }
     
 }
